@@ -2,6 +2,8 @@
 
 Hola! hace tiempo tenía ganas de aprender **Chakra Ui** y hacer este proyecto fue la excusa perfecta para comenzar.
 
+### [Live Site](https://nicolasfranco.vercel.app/)
+
 ## Instalación
 
 Luego de descargar o clonar este repositorio se debe:

@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background-color: #f7f7f7 !important ;
+    color:#1b1a17 !important
+  }

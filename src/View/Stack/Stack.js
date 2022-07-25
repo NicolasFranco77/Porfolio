@@ -1,4 +1,4 @@
-import { Flex, Box, Grid, GridItem, Image } from '@chakra-ui/react';
+import { Flex, Box, Grid, GridItem } from '@chakra-ui/react';
 
 //logos
 import react from '../../assets/LOGOS/react.png';
@@ -10,7 +10,12 @@ import firebase from '../../assets/LOGOS/firebase.png';
 
 const Stack = () => {
   return (
-    <Flex height={'calc(100vh - 80px)'} justify={'center'} alignItems="center" as="section">
+    <Flex
+      height={'calc(100vh - 80px)'}
+      justify={'center'}
+      alignItems="center"
+      as="section"
+    >
       <Grid
         gridTemplateColumns={'auto auto auto'}
         rowGap="40px"
@@ -18,13 +23,23 @@ const Stack = () => {
         justifyContent={'center'}
       >
         <GridItem>
-          <Image src={react} boxSize="120px"  alt="React" />
+          <img src={react}  width="120" alt="React" />
         </GridItem>
         <GridItem>
-          <Image src={materialui} boxSize="120px" alt="Material UI" />
+          <img
+            src={materialui}
+          
+            width="120"
+            alt="Material UI"
+          />
         </GridItem>
         <GridItem>
-          <Image src={bootstrap} boxSize="120px"  alt="Bootstrap" />
+          <img
+            src={bootstrap}
+           
+            width="120"
+            alt="Bootstrap"
+          />
         </GridItem>
         <GridItem
           gridRow={2}
@@ -35,15 +50,15 @@ const Stack = () => {
           <Box height="3px" bgColor="#1b1a17" />
         </GridItem>
         <GridItem>
-          <Image src={git}boxSize="120px" alt="Git" />
+          <img src={git}  width="120" alt="Git" />
         </GridItem>
 
         <GridItem>
-          <Image src={github} boxSize="120px" alt="GitHub" />
+          <img src={github} width="120" alt="GitHub" />
         </GridItem>
 
         <GridItem>
-          <Image src={firebase} boxSize="120px" alt="Firebase" />
+          <img src={firebase}  width="120" alt="Firebase" />
         </GridItem>
       </Grid>
     </Flex>

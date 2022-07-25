@@ -23,23 +23,13 @@ const Stack = () => {
         justifyContent={'center'}
       >
         <GridItem>
-          <img src={react}  width="120" alt="React" />
+          <img src={react} width="120" alt="React" />
         </GridItem>
         <GridItem>
-          <img
-            src={materialui}
-          
-            width="120"
-            alt="Material UI"
-          />
+          <img src={materialui} width="120" alt="Material UI" />
         </GridItem>
         <GridItem>
-          <img
-            src={bootstrap}
-           
-            width="120"
-            alt="Bootstrap"
-          />
+          <img src={bootstrap} width="120" alt="Bootstrap" />
         </GridItem>
         <GridItem
           gridRow={2}
@@ -50,7 +40,7 @@ const Stack = () => {
           <Box height="3px" bgColor="#1b1a17" />
         </GridItem>
         <GridItem>
-          <img src={git}  width="120" alt="Git" />
+          <img src={git} width="120" alt="Git" />
         </GridItem>
 
         <GridItem>
@@ -58,7 +48,7 @@ const Stack = () => {
         </GridItem>
 
         <GridItem>
-          <img src={firebase}  width="120" alt="Firebase" />
+          <img src={firebase} width="90" alt="Firebase" />
         </GridItem>
       </Grid>
     </Flex>
